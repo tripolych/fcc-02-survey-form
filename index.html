@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="freeCodeCamp Responsive Web Design Projects, Survey Form Project (fcc-02-survey-form)">
+  <meta name="keywords" content="">
+  <meta name="author" content="Nikolay Tripolskiy">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body class="page">
+  <main class="content">
+    <h1 class="title" id="title">Page Title</h1>
+    <p class="subtitle" id="description">Page Subtitle</p>
+    <form class="form" id="survey-form" action="" method="post">
+      <label class="form__input-title" id="name-label" for="name">Name</label>
+      <input class="form__text-input" id="name" type="text" name="name" value="" placeholder="Enter your name" required>
+      <label class="form__input-title" id="email-label" for="email">E-mail</label>
+      <input class="form__text-input" id="email" type="email" name="email" value="" placeholder="Enter your E-mail" required>
+      <label class="form__input-title" id="number-label" for="number">Number</label>
+      <input class="form__text-input" id="number" type="number" name="number" value="" min="18" max="120" placeholder="Number" required>
+      <label class="form__input-title" for="dropdown">Dropdown</label>
+      <select class="form__text-input" id="dropdown" name="dropdown">
+        <option value="" disabled selected>Please choose an option</option>
+        <option value="option-one">Option one</option>
+        <option value="option-two">Option two</option>
+        <option value="option-three">Option three</option>
+      </select>
+      <p class="form__input-title">Radio Buttons</p>
+      <input class="form__radio" id="radio-one" type="radio" name="radio" value="radio-one" checked>
+      <label for="radio-one">Radio one</label>
+      <input class="form__radio" id="radio-two" type="radio" name="radio" value="radio-two">
+      <label for="radio-two">Radio two</label>
+      <input class="form__radio" id="radio-three" type="radio" name="radio" value="radio-three">
+      <label for="radio-three">Radio three</label>
+      <p class="form__input-title">Checkboxes</p>
+      <input class="form__checkbox" id="checkbox-one" type="checkbox" name="checkboxes" value="checkbox-one">
+      <label for="checkbox-one">Checkbox one</label>
+      <input class="form__checkbox" id="checkbox-two" type="checkbox" name="checkboxes" value="checkbox-two">
+      <label for="checkbox-two">Checkbox two</label>
+      <input class="form__checkbox" id="checkbox-three" type="checkbox" name="checkboxes" value="checkbox-three">
+      <label for="checkbox-three">Checkbox three</label>
+      <label class="form__input-title">Comments</label>
+      <textarea class="form__textarea" id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+      <button class="form__submit" id="submit" type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

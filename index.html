@@ -31,20 +31,36 @@
         <option value="option-two">Option two</option>
         <option value="option-three">Option three</option>
       </select>
-      <p class="form__input-title">Radio Buttons</p>
-      <input class="form__radio" id="radio-one" type="radio" name="radios" value="radio-one" checked>
-      <label for="radio-one">Radio one</label>
-      <input class="form__radio" id="radio-two" type="radio" name="radios" value="radio-two">
-      <label for="radio-two">Radio two</label>
-      <input class="form__radio" id="radio-three" type="radio" name="radios" value="radio-three">
-      <label for="radio-three">Radio three</label>
-      <p class="form__input-title">Checkboxes</p>
-      <input class="form__checkbox" id="checkbox-one" type="checkbox" name="checkboxes" value="checkbox-one">
-      <label for="checkbox-one">Checkbox one</label>
-      <input class="form__checkbox" id="checkbox-two" type="checkbox" name="checkboxes" value="checkbox-two">
-      <label for="checkbox-two">Checkbox two</label>
-      <input class="form__checkbox" id="checkbox-three" type="checkbox" name="checkboxes" value="checkbox-three">
-      <label for="checkbox-three">Checkbox three</label>
+      <fieldset class="form__fieldset">
+        <legend class="form__input-title">Radio Buttons</legend>
+        <label for="radio-one">
+          <input class="form__radio" id="radio-one" type="radio" name="radios" value="radio-one" checked>
+          Radio one
+        </label>
+        <label for="radio-two"></label>
+          <input class="form__radio" id="radio-two" type="radio" name="radios" value="radio-two">
+          Radio two
+        </label>
+        <label for="radio-three">
+          <input class="form__radio" id="radio-three" type="radio" name="radios" value="radio-three">
+          Radio three
+        </label>
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__input-title">Checkboxes</legend>
+        <label for="checkbox-one">
+          <input class="form__checkbox" id="checkbox-one" type="checkbox" name="checkboxes" value="checkbox-one">
+          Checkbox one
+        </label>
+        <label for="checkbox-two">
+          <input class="form__checkbox" id="checkbox-two" type="checkbox" name="checkboxes" value="checkbox-two">
+          Checkbox two
+        </label>
+        <label for="checkbox-three">
+          <input class="form__checkbox" id="checkbox-three" type="checkbox" name="checkboxes" value="checkbox-three">
+          Checkbox three
+        </label>
+      </fieldset>
       <label class="form__input-title">Comments</label>
       <textarea class="form__textarea" id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
       <button class="form__submit" id="submit" type="submit">Submit</button>

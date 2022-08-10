@@ -17,13 +17,13 @@
     <p class="description" id="description">Page Description</p>
   </header>
   <main class="content">
-    <form class="form" id="survey-form" action="" method="post">
+    <form class="form" id="survey-form">
       <label class="form__input-title" id="name-label" for="name">Name</label>
-      <input class="form__input-text" id="name" type="text" name="name" value="" placeholder="Enter your name" required>
-      <label class="form__input-title" id="email-label" for="email">E-mail</label>
-      <input class="form__input-text" id="email" type="email" name="email" value="" placeholder="Enter your E-mail" required>
+      <input class="form__input-text" id="name" type="text" name="name" placeholder="Enter your name" required>
+      <label class="form__input-title" id="email-label" for="email">Email</label>
+      <input class="form__input-text" id="email" type="email" name="email" placeholder="Enter your Email" required>
       <label class="form__input-title" id="number-label" for="number">Number</label>
-      <input class="form__input-text" id="number" type="number" name="number" value="" min="18" max="120" placeholder="Number" required>
+      <input class="form__input-text" id="number" type="number" name="number" min="18" max="120" placeholder="Enter your number">
       <label class="form__input-title" for="dropdown">Dropdown</label>
       <select class="form__input-text" id="dropdown" name="dropdown">
         <option value="" disabled selected>Please choose an option</option>
@@ -34,7 +34,7 @@
       <fieldset class="form__fieldset">
         <legend class="form__input-title">Radio Buttons</legend>
         <label class="form__control-text" for="radio-one">
-          <input class="form__radio" id="radio-one" type="radio" name="radios" value="radio-one" checked>
+          <input class="form__radio" id="radio-one" type="radio" name="radios" value="radio-one">
           Radio one
         </label>
         <label class="form__control-text" for="radio-two">
@@ -68,8 +68,10 @@
   </main>
   <footer class="footer">
     <p class="footer__text">
-      &copy; 2022
-      <a class="footer__link" href="" target="_blank">Nikolay Tripolskiy</a>
+      &copy; 2022 Nikolay Tripolskiy
+    </p>
+    <p class="footer__text">
+      <a class="footer__link" href="https://github.com/tripolych" target="_blank">GitHub</a>
     </p>
   </footer>
 </body>

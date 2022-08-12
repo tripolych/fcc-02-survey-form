@@ -13,56 +13,80 @@
 </head>
 <body class="page">
   <header class="header">
-    <h1 class="title" id="title">Page Title</h1>
-    <p class="description" id="description">Page Description</p>
+    <h1 class="title" id="title">Generic Survey Form</h1>
+    <p class="description" id="description">This is a generic survey form to collect user data</p>
   </header>
   <main class="content">
     <form class="form" id="survey-form">
       <label class="form__input-title" id="name-label" for="name">Name</label>
-      <input class="form__input-text" id="name" type="text" name="name" placeholder="Enter your name" required>
+      <input class="form__input-text" id="name" type="text" name="name" placeholder="Please enter your name" required>
       <label class="form__input-title" id="email-label" for="email">Email</label>
-      <input class="form__input-text" id="email" type="email" name="email" placeholder="Enter your Email" required>
-      <label class="form__input-title" id="number-label" for="number">Number</label>
-      <input class="form__input-text" id="number" type="number" name="number" min="18" max="120" placeholder="Enter your number">
-      <label class="form__input-title" for="dropdown">Dropdown</label>
-      <select class="form__input-text" id="dropdown" name="dropdown">
+      <input class="form__input-text" id="email" type="email" name="email" placeholder="Please enter your email" required>
+      <label class="form__input-title" id="number-label" for="number">Age</label>
+      <input class="form__input-text" id="number" type="number" name="number" min="18" max="120" placeholder="Please enter your age">
+      <label class="form__input-title" for="dropdown">Options</label>
+      <select class="form__input-text" id="dropdown" name="options">
         <option value="" disabled selected>Please choose an option</option>
         <option value="option-one">Option one</option>
         <option value="option-two">Option two</option>
         <option value="option-three">Option three</option>
+        <option value="option-four">Option four</option>
+        <option value="option-five">Option five</option>
       </select>
       <fieldset class="form__fieldset">
-        <legend class="form__input-title">Radio Buttons</legend>
+        <legend class="form__input-title fieldset-legend">
+          Single Choice Answers
+          <span class="form__input-subtitle">(please choose one of the following)</span>
+        </legend>
         <label class="form__control-text" for="radio-one">
-          <input class="form__radio" id="radio-one" type="radio" name="radios" value="radio-one">
-          Radio one
+          <input class="form__radio" id="radio-one" type="radio" name="radios" value="single-choice-answer-one">
+          Single choice answer one
         </label>
         <label class="form__control-text" for="radio-two">
-          <input class="form__radio" id="radio-two" type="radio" name="radios" value="radio-two">
-          Radio two
+          <input class="form__radio" id="radio-two" type="radio" name="radios" value="single-choice-answer-two">
+          Single choice answer two
         </label>
         <label class="form__control-text" for="radio-three">
-          <input class="form__radio" id="radio-three" type="radio" name="radios" value="radio-three">
-          Radio three
+          <input class="form__radio" id="radio-three" type="radio" name="radios" value="single-choice-answer-three">
+          Single choice answer three
+        </label>
+        <label class="form__control-text" for="radio-four">
+          <input class="form__radio" id="radio-four" type="radio" name="radios" value="single-choice-answer-four">
+          Single choice answer four
+        </label>
+        <label class="form__control-text" for="radio-five">
+          <input class="form__radio" id="radio-five" type="radio" name="radios" value="single-choice-answer-five">
+          Single choice answer five
         </label>
       </fieldset>
       <fieldset class="form__fieldset">
-        <legend class="form__input-title">Checkboxes</legend>
+        <legend class="form__input-title fieldset-legend">
+          Multiple Choice Answers
+          <span class="form__input-subtitle">(please choose any of the following)</span>
+        </legend>
         <label class="form__control-text" for="checkbox-one">
-          <input class="form__checkbox" id="checkbox-one" type="checkbox" name="checkboxes" value="checkbox-one">
-          Checkbox one
+          <input class="form__checkbox" id="checkbox-one" type="checkbox" name="checkboxes" value="multiple-choice-answer-one">
+          Multiple choice answer one
         </label>
         <label class="form__control-text" for="checkbox-two">
-          <input class="form__checkbox" id="checkbox-two" type="checkbox" name="checkboxes" value="checkbox-two">
-          Checkbox two
+          <input class="form__checkbox" id="checkbox-two" type="checkbox" name="checkboxes" value="multiple-choice-answer-two">
+          Multiple choice answer two
         </label>
         <label class="form__control-text" for="checkbox-three">
-          <input class="form__checkbox" id="checkbox-three" type="checkbox" name="checkboxes" value="checkbox-three">
-          Checkbox three
+          <input class="form__checkbox" id="checkbox-three" type="checkbox" name="checkboxes" value="multiple-choice-answer-three">
+          Multiple choice answer three
+        </label>
+        <label class="form__control-text" for="checkbox-four">
+          <input class="form__checkbox" id="checkbox-four" type="checkbox" name="checkboxes" value="multiple-choice-answer-four">
+          Multiple choice answer four
+        </label>
+        <label class="form__control-text" for="checkbox-five">
+          <input class="form__checkbox" id="checkbox-five" type="checkbox" name="checkboxes" value="multiple-choice-answer-five">
+          Multiple choice answer five
         </label>
       </fieldset>
       <label class="form__input-title">Comments</label>
-      <textarea class="form__textarea" id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+      <textarea class="form__textarea" id="comments" name="comments" placeholder="Please enter your comments here"></textarea>
       <button class="form__submit" id="submit" type="submit">Submit</button>
     </form>
   </main>

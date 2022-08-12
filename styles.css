@@ -96,6 +96,16 @@ html {
   text-align: left;
 }
 
+.form__input-subtitle {
+  color: #888;
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25;
+  text-align: left;
+}
+
 .form__input-text {
   width: 80%;
   min-height: 2.5rem;
@@ -124,6 +134,10 @@ html {
   padding: 0;
 
   border: none;
+}
+
+.fieldset-legend {
+  width: 100%;
 }
 
 .form__control-text {
@@ -231,5 +245,5 @@ html {
 }
 
 .footer__link:active {
-  color: #aaa;
+  color: #888;
 }

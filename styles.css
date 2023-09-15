@@ -201,6 +201,7 @@ html {
 .form__submit {
   width: 40%;
   min-height: 2.5rem;
+  margin: 0 0 1.75rem;
   padding: .5rem .5rem;
 
   color: #fff;

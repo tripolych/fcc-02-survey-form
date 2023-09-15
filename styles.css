@@ -98,6 +98,10 @@ html {
   text-align: left;
 }
 
+.form__input-title:first-of-type {
+  margin-top: 1.75rem;
+}
+
 .form__input-subtitle {
   color: #888;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;

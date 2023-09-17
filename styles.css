@@ -114,7 +114,7 @@ html {
 
 .form__input-text {
   width: 80%;
-  min-height: 2.5rem;
+  height: 2.5rem;
   margin: 0 0 1.75rem;
   padding: .5rem .5rem;
 

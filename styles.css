@@ -80,6 +80,7 @@ html {
   width: 100%;
   padding: 1.75rem 0;
 
+  background-color: #4361EE;
   border-radius: 5px;
 }
 
@@ -88,7 +89,7 @@ html {
   margin: 0 0 1rem;
   padding: 0;
 
-  color: #000;
+  color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -102,7 +103,7 @@ html {
 }
 
 .form__input-subtitle {
-  color: #888;
+  color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -152,7 +153,7 @@ html {
   margin: 0 0 .5rem;
   padding: 0;
 
-  color: #000;
+  color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -204,12 +205,12 @@ html {
   color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
 
-  background-color: #000;
+  background-color: #F72585;
   border-radius: 5px;
 
   cursor: pointer;

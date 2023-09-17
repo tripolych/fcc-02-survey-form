@@ -127,7 +127,13 @@ html {
   text-align: left;
 
   background-color: #fff;
+  border: none;
   border-radius: 5px;
+  outline: none;
+}
+
+.form__input-text:focus {
+  outline: none;
 }
 
 .form__fieldset {
@@ -170,12 +176,23 @@ html {
   min-width: 1.125rem;
   min-height: 1.125rem;
   margin: 0 .5rem 0 0;
+
+  border: none;
+  outline: none;
+}
+
+.form__radio:focus {
+  outline: none;
 }
 
 .form__checkbox {
   min-width: 1.125rem;
   min-height: 1.125rem;
   margin: 0 .5rem 0 0;
+}
+
+.form__checkbox:focus {
+  outline: none;
 }
 
 .form__textarea {
@@ -193,7 +210,13 @@ html {
   text-align: left;
 
   background-color: #fff;
+  border: none;
   border-radius: 5px;
+  outline: none;
+}
+
+.form__textarea:focus {
+  outline: none;
 }
 
 .form__submit {
@@ -211,9 +234,15 @@ html {
   text-align: center;
 
   background-color: #F72585;
+  border: none;
   border-radius: 5px;
+  outline: none;
 
   cursor: pointer;
+}
+
+.form__submit:focus {
+  outline: none;
 }
 
 .footer {

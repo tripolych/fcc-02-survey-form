@@ -231,7 +231,7 @@ html {
   margin: 0;
   padding: 0;
 
-  color: #000;
+  color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -241,7 +241,7 @@ html {
 }
 
 .footer__link {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
